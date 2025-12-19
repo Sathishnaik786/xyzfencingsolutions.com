@@ -81,28 +81,34 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mt-12 md:mt-16 pt-8 md:pt-10 border-t border-primary-foreground/20"
+            className="flex flex-wrap justify-center md:justify-start gap-8 md:gap-10 mt-12 md:mt-16 pt-8 md:pt-10 border-t border-primary-foreground/20"
           >
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 text-accent mb-2">
-                <Shield className="w-5 h-5" />
+            <div className="flex items-center gap-3 min-w-[140px]">
+              <div className="flex items-center justify-center bg-accent/20 p-2 rounded-full">
+                <Shield className="w-5 h-5 text-accent" />
               </div>
-              <div className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-primary-foreground">500+</div>
-              <div className="text-sm text-primary-foreground/70">Projects Completed</div>
+              <div>
+                <div className="text-xl md:text-2xl font-serif font-bold text-primary-foreground">500+</div>
+                <div className="text-xs md:text-sm text-primary-foreground/70 whitespace-nowrap">Projects Completed</div>
+              </div>
             </div>
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 text-accent mb-2">
-                <Clock className="w-5 h-5" />
+            <div className="flex items-center gap-3 min-w-[140px]">
+              <div className="flex items-center justify-center bg-accent/20 p-2 rounded-full">
+                <Clock className="w-5 h-5 text-accent" />
               </div>
-              <div className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-primary-foreground">18+</div>
-              <div className="text-sm text-primary-foreground/70">Years Experience</div>
+              <div>
+                <div className="text-xl md:text-2xl font-serif font-bold text-primary-foreground">18+</div>
+                <div className="text-xs md:text-sm text-primary-foreground/70 whitespace-nowrap">Years Experience</div>
+              </div>
             </div>
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 text-accent mb-2">
-                <Award className="w-5 h-5" />
+            <div className="flex items-center gap-3 min-w-[140px]">
+              <div className="flex items-center justify-center bg-accent/20 p-2 rounded-full">
+                <Award className="w-5 h-5 text-accent" />
               </div>
-              <div className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-primary-foreground">100%</div>
-              <div className="text-sm text-primary-foreground/70">Client Satisfaction</div>
+              <div>
+                <div className="text-xl md:text-2xl font-serif font-bold text-primary-foreground">100%</div>
+                <div className="text-xs md:text-sm text-primary-foreground/70 whitespace-nowrap">Client Satisfaction</div>
+              </div>
             </div>
           </motion.div>
         </div>
