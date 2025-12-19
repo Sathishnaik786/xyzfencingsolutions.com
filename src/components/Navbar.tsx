@@ -165,7 +165,7 @@ export function Navbar() {
                     className="flex items-center justify-center gap-2 mt-4 text-muted-foreground hover:text-foreground"
                   >
                     <Phone className="w-4 h-4" />
-                    +91 98765 43210
+                    +918367447870
                   </a>
                 </div>
               </div>
