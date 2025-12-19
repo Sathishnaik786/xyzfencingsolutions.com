@@ -48,7 +48,7 @@ XYZ Fencing Solutions is a modern, responsive website built for a professional f
 ## Project Structure
 
 ```
-xyzfencingsolutions/
+XYZ Fencing/
 ├── public/
 │   └── robots.txt
 ├── src/
@@ -85,7 +85,7 @@ xyzfencingsolutions/
 git clone [repository-url]
 
 # Navigate to project directory
-cd xyzfencingsolutions
+cd XYZ Fencing
 
 # Install dependencies
 npm install

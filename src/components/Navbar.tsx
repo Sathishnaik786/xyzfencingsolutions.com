@@ -62,7 +62,7 @@ export function Navbar() {
               <div className={`font-serif text-2xl md:text-3xl font-bold tracking-tight transition-colors ${
                 isScrolled ? 'text-primary' : 'text-primary-foreground'
               }`}>
-                xyzfencingsolutions
+                XYZ Fencing
               </div>
             </Link>
 

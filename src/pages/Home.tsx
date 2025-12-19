@@ -25,8 +25,8 @@ const projects = [
 ];
 
 const testimonials = [
-  { name: 'Rajesh Kumar', role: 'Factory Owner', company: 'Kumar Industries', content: 'xyzfencingsolutions transformed our industrial security. Their chain link installation was completed ahead of schedule with exceptional quality.', rating: 5 },
-  { name: 'Priya Sharma', role: 'Property Developer', company: 'Sharma Builders', content: 'We have worked with xyzfencingsolutions on multiple residential projects. Their compound walls are elegant and built to last.', rating: 5 },
+  { name: 'Rajesh Kumar', role: 'Factory Owner', company: 'Kumar Industries', content: 'XYZ Fencing transformed our industrial security. Their chain link installation was completed ahead of schedule with exceptional quality.', rating: 5 },
+  { name: 'Priya Sharma', role: 'Property Developer', company: 'Sharma Builders', content: 'We have worked with XYZ Fencing on multiple residential projects. Their compound walls are elegant and built to last.', rating: 5 },
   { name: 'Vikram Singh', role: 'Farm Owner', company: 'Singh Agro Farms', content: 'The solar fencing solution perfectly protects our 50-acre farm. Highly recommend their agricultural fencing services.', rating: 5 },
 ];
 
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
             </AnimatedSection>
             <AnimatedSection direction="right" delay={0.2}>
-              <span className="text-accent font-medium tracking-wider uppercase text-sm">About xyzfencingsolutions</span>
+              <span className="text-accent font-medium tracking-wider uppercase text-sm">About XYZ Fencing</span>
               <h2 className="mt-4 mb-6">Trusted Fencing Contractors with Proven Experience</h2>
               <p className="text-muted-foreground mb-6">We are a professional fencing construction company delivering reliable boundary solutions for residential plots, agricultural lands, factories, and commercial properties. Our focus is on strength, safety, and long-term performance using materials suited for Indian conditions.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

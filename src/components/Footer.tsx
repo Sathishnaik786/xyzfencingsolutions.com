@@ -27,7 +27,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-6">
-              <h3 className="font-serif text-2xl font-bold">xyzfencingsolutions</h3>
+              <h3 className="font-serif text-2xl font-bold">XYZ Fencing</h3>
             </Link>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Professional Fencing & Boundary Construction Services
@@ -117,9 +117,9 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:xyzfencingsolutions@gmail.com" className="flex gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                <a href="mailto:XYZ Fencing@gmail.com" className="flex gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   <Mail className="w-5 h-5 shrink-0 text-accent" />
-                  xyzfencingsolutions@gmail.com
+                  XYZ Fencing@gmail.com
                 </a>
               </li>
               <li className="flex gap-3">
