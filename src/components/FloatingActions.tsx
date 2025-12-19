@@ -45,7 +45,7 @@ export default function FloatingActions() {
       <div className="fixed right-6 bottom-6 flex flex-col gap-3 z-50">
         {/* Call Button */}
         <a
-          href="tel:+919876543210"
+          href="tel:918367447870"
           className="w-14 h-14 bg-blue-600 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-blue-700 transition-all duration-300"
           aria-label="Call us"
         >
@@ -54,7 +54,7 @@ export default function FloatingActions() {
         
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/919390007645"
+          href="https://wa.me/918367447870"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-green-700 transition-all duration-300"

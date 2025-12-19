@@ -161,7 +161,7 @@ export function Navbar() {
                   </Link>
                   
                   <a 
-                    href="tel:+919876543210" 
+                    href="tel:918367447870" 
                     className="flex items-center justify-center gap-2 mt-4 text-muted-foreground hover:text-foreground"
                   >
                     <Phone className="w-4 h-4" />
