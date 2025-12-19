@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shrink-0"><Clock className="w-5 h-5 text-primary-foreground" /></div><div><div className="font-semibold">Working Hours</div><span className="text-muted-foreground break-words">Monday – Saturday | 9:00 AM – 7:00 PM</span></div></div>
                                 <div className="flex items-start gap-4"><div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center shrink-0"><MapPin className="w-5 h-5 text-primary-foreground" /></div><div><div className="font-semibold">Service Areas</div><span className="text-muted-foreground break-words">As per project location</span></div></div>
               </div>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"><MessageCircle className="w-5 h-5" /> Chat on WhatsApp</a>
+              <a href="https://wa.me/918367447870" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"><MessageCircle className="w-5 h-5" /> Chat on WhatsApp</a>
             </AnimatedSection>
             <AnimatedSection direction="right" delay={0.2}>
               <form onSubmit={handleSubmit} className="bg-card p-8 rounded-xl shadow-lg space-y-6">
